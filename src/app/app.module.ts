@@ -1,10 +1,11 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
-import { CounterModule } from './counter/couter.module';
+//import { CounterModule } from './counter/couter.module';
 
 import { AppComponent } from './app.component';
-import { heroModule } from './heroes/hero.module';
+import { DgzModule } from './dgz/dgz.module';
+//import { heroModule } from './heroes/hero.module';
 
 
 
@@ -15,8 +16,10 @@ import { heroModule } from './heroes/hero.module';
   ],
   imports: [
     BrowserModule,
-    CounterModule,
-    heroModule
+    DgzModule
+    // CounterModule,
+    // heroModule,
+
   ],
   providers: [],
   bootstrap: [AppComponent]
